@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/lvgl_porting.elf
+file C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/esp32s3_4.3b_lvgl.elf

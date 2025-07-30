@@ -10,7 +10,7 @@ C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/monitor.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/flash.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/encrypted-flash.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/_project_elf_src.dir
-C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/lvgl_porting.elf.dir
+C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/esp32s3_4.3b_lvgl.elf.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/size.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/size-files.dir
 C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/CMakeFiles/size-components.dir

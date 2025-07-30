@@ -1,15 +1,15 @@
 {
     "version":            "1.2",
-    "project_name":       "lvgl_porting",
-    "project_version":    "1",
+    "project_name":       "esp32s3_4.3b_lvgl",
+    "project_version":    "e1d7e7a-dirty",
     "project_path":       "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl",
     "idf_path":           "C:/esp/v5.4.2/v5.4.2/esp-idf",
     "build_dir":          "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build",
     "config_file":        "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/sdkconfig",
     "config_defaults":    "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/sdkconfig.defaults",
     "bootloader_elf":     "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/bootloader/bootloader.elf",
-    "app_elf":            "lvgl_porting.elf",
-    "app_bin":            "lvgl_porting.bin",
+    "app_elf":            "esp32s3_4.3b_lvgl.elf",
+    "app_bin":            "esp32s3_4.3b_lvgl.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.4.2",
     "target":             "esp32s3",
@@ -1240,8 +1240,8 @@
             "managed_reqs": [ "lvgl__lvgl" ],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_gt911" ],
             "file": "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/waveshare_rgb_lcd_port.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/main.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/lvgl_port.c" ],
-            "include_dirs": [ "." ]
+            "sources": [ "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/lvgl_port.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/main.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/ui/components/ui_comp_hook.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/ui/screens/ui_Screen1.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/ui/ui.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/ui/ui_events.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/ui/ui_helpers.c", "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/main/waveshare_rgb_lcd_port.c" ],
+            "include_dirs": [ ".", "UI" ]
         },
         "mbedtls": {
             "alias": "idf::mbedtls",
@@ -2905,7 +2905,7 @@
             "priv_reqs": [ "espressif__esp_lcd_touch_gt911" ],
             "managed_reqs": [ "lvgl__lvgl" ],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_gt911" ],
-            "include_dirs": [ "." ]
+            "include_dirs": [ ".", "UI" ]
         },
         "espressif__esp_lcd_touch": {
             "alias": "idf::espressif__esp_lcd_touch",
