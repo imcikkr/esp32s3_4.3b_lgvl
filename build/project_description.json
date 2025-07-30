@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32s3_4.3b_lvgl",
-    "project_version":    "e1d7e7a-dirty",
+    "project_version":    "35c4c45-dirty",
     "project_path":       "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl",
     "idf_path":           "C:/esp/v5.4.2/v5.4.2/esp-idf",
     "build_dir":          "C:/Users/cikkr/Desktop/esp32s3_4.3b_lgvl/build",
