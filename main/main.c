@@ -38,7 +38,7 @@ void app_main()
         lv_demo_music();
 #endif
         // example_lvgl_demo_ui();
-         ui_init();
+        ui_init();
         //Release the mutex
         lvgl_port_unlock();
     }

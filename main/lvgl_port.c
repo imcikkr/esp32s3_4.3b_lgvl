@@ -489,6 +489,8 @@ static void lvgl_port_task(void *arg)
 
     uint32_t task_delay_ms = LVGL_PORT_TASK_MAX_DELAY_MS; // Set initial task delay
     while (1) {
+
+
         if (lvgl_port_lock(-1)) { // Try to lock the LVGL mutex
             task_delay_ms = lv_timer_handler(); // Handle LVGL timer events
             lvgl_port_unlock(); // Unlock the mutex
